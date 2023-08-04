@@ -32,3 +32,8 @@ int main()
 	else 
 		printf("\n It is not a comment");
 }
+
+output:
+ Enter comment://hello
+
+ It is a comment
