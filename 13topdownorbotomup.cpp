@@ -18,7 +18,7 @@ int main() {
 				break;
 			} else if(string[count]=='a')
 			continue; else if((flag==1)&&(string[count]='\0')) {
-				printf("String not accepted…..!!!!");
+				printf("String not acceptedâ€¦..!!!!");
 				break;
 			} else {
 				printf("String accepted");
@@ -26,3 +26,10 @@ int main() {
 		}
 	}
 }
+
+
+output:
+The grammar is: S->aS, S->Sb, S->ab
+Enter the string to be checked:
+abb
+String accepted
