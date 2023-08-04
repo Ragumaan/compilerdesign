@@ -40,3 +40,16 @@ int main()
 	}
 	return 0;
 }
+
+output:
+enter the no: intermediate code:2
+enter the 3 address code:1:a=b+c
+enter the 3 address code:2:d=n*d
+the generated code is:
+ mov b,R0
+ add c,R0
+ mov R0,a
+
+ mov n,R1
+ mul d,R1
+ mov R1,d
