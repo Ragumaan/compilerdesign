@@ -103,3 +103,18 @@ return(1);
 else
 return(0);
 }
+
+output:
+E->TE'
+E'->+TE'/@
+T->FT'
+T'->*FT'/@
+F->(E)/ID
+
+Enter the string to be checked: (a+b)*c
+
+String is accepted
+
+Enter the string to be checked: a/c+d
+
+String is not accepted
