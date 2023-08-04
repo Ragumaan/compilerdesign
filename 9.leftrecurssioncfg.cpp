@@ -36,3 +36,15 @@
        }  
   }   
 
+output:
+Enter Number of Production : 2
+Enter the grammar as E->E-A :
+S->(L)|a
+L->L,S|S
+
+GRAMMAR : : : S->(L)|a is not left recursive.
+
+GRAMMAR : : : L->L,S|S is left recursive.
+Grammar without left recursion:
+L->SL'
+L'->,L'|E
