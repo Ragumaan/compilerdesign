@@ -34,3 +34,8 @@
        printf("\n S->%s",modifiedGram);  
        printf("\n X->%s\n",newGram);  
   }  
+output:
+Enter Production : S->iEtS|iEtSeS|a
+
+ S->iEtSX
+ X->|eS|a
