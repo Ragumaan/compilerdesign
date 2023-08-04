@@ -58,10 +58,10 @@ void FIRST(char* Result,char c)
         {
 //If X ? e is a production, then add e to FIRST(X).
  if(productionSet[i][2]=='$') addToResultSet(Result,'$');
-            //If X is a non-terminal, and X ? Y1 Y2 … Yk
+            //If X is a non-terminal, and X ? Y1 Y2 â€¦ Yk
             //is a production, then add a to FIRST(X)
             //if for some i, a is in FIRST(Yi),
-            //and e is in all of FIRST(Y1), …, FIRST(Yi-1).
+            //and e is in all of FIRST(Y1), â€¦, FIRST(Yi-1).
       else
             {
                 j=2;
@@ -102,4 +102,19 @@ void addToResultSet(char Result[],char val)
 }
 
 
+output:
+How many number of productions ? :4
+Enter productions Number 1 : S=AaBb
+Enter productions Number 2 : A=$
+Enter productions Number 3 : B=$
+Enter productions Number 4 : S=BaAb
 
+ Find the FIRST of  :S
+
+ FIRST(S)= {  $  a }
+press 'y' to continue : Y
+
+ Find the FIRST of  :A
+
+ FIRST(A)= {  $ }
+press 'y' to continue : n
