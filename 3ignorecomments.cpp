@@ -54,3 +54,6 @@ while((ch = fgetc(fp)) != EOF){
 fclose(fp);
 return 0;
 }
+
+output:
+error while opening the file
