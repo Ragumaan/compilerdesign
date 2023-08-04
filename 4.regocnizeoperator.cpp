@@ -62,3 +62,7 @@ int main()
 			printf("\n Not a operator");
 	}
 }
+
+output:
+Enter any operator:<=
+ Less than or equal
