@@ -56,3 +56,25 @@ printf("\n%s\t\t\t%s\t\t reject",stack,ip_sym); exit(0);
 }
 return;
 }
+output:
+
+ GRAMMER
+
+ E->E+E
+ E->E/E
+ E->E*E
+ E->a/b
+ enter the input symbol:        a+b
+
+         stack implementation table
+ stack           input symbol            action
+
+
+ $              a+b$                    --
+ $a              +b$                    shift a
+ $E              +b$                    E->a
+ $E+              b$                    shift+
+ $E+b              $                    shiftb
+ $E+E              $                    E->b
+ $E                $                    E->E+E
+ $E                $                    ACCEPT
