@@ -71,3 +71,10 @@ int main()
         printf("%c ",operators[j]);
       }
 }
+
+output:
+output:
+enter the string : ab*12
+ identifiers : a b
+ constants : 12
+ operators : *
